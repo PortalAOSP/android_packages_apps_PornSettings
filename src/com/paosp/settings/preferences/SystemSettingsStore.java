@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonhd.settings.preferences;
+package com.paosp.settings.preferences;
 
 import android.content.ContentResolver;
 import android.preference.PreferenceDataStore;

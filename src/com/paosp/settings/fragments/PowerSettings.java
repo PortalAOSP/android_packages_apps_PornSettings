@@ -78,7 +78,7 @@ public class PowerSettings extends SettingsPreferenceFragment
                         boolean enabled) {
                     final ArrayList<SearchIndexableResource> result = new ArrayList<>();
                      final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.xenonhd_power;
+                    sir.xmlResId = R.xml.paosp_power;
                     result.add(sir);
                     return result;
                 }

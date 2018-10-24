@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonhd.settings.fragments;
+package com.paosp.settings.fragments;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -37,7 +37,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.xenonhd.settings.preferences.SystemSettingSwitchPreference;
+import com.paosp.settings.preferences.SystemSettingSwitchPreference;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
 import java.util.ArrayList;
@@ -69,7 +69,7 @@ public class SmartPixels extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.XENONHD_SETTINGS;
+        return MetricsEvent.PAOSP_SETTINGS;
     }
 
     @Override

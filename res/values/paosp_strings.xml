@@ -29,7 +29,7 @@
     <string name="statusbar_title">Statusbar</string>
     <string name="notifications_title">Notifications</string>
     <string name="paosp_title">PornHub</string>
-    <string name="xenonsettings_title">PornAOSP Settings</string>
+    <string name="pornaospsettings_title">PornAOSP Settings</string>
 
     <!-- Changelog -->
     <string name="changelog_paosp_title">Changelog</string>
@@ -53,8 +53,8 @@
     <string name="color_default">Default</string>
 
     <!-- PornOTA -->
-    <string name="xenonota_title">PornOTA</string>
-    <string name="xenonota_summary">Check for PornAOSP updates</string>
+    <string name="pornaospota_title">PornOTA</string>
+    <string name="pornaospota_summary">Check for PornAOSP updates</string>
 
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Advanced restart</string>

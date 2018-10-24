@@ -93,7 +93,7 @@ public class NavigationSettings extends SettingsPreferenceFragment implements
                         boolean enabled) {
                     final ArrayList<SearchIndexableResource> result = new ArrayList<>();
                      final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.xenonhd_navigation;
+                    sir.xmlResId = R.xml.paosp_navigation;
                     result.add(sir);
                     return result;
                 }

@@ -55,7 +55,7 @@ public class GesturesSettings extends SettingsPreferenceFragment implements Inde
                         boolean enabled) {
                     final ArrayList<SearchIndexableResource> result = new ArrayList<>();
                      final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.xenonhd_gestures;
+                    sir.xmlResId = R.xml.paosp_gestures;
                     result.add(sir);
                     return result;
                 }

@@ -97,7 +97,7 @@ public class QSSettings extends SettingsPreferenceFragment implements
                         boolean enabled) {
                     final ArrayList<SearchIndexableResource> result = new ArrayList<>();
                      final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.xenonhd_qs;
+                    sir.xmlResId = R.xml.paosp_qs;
                     result.add(sir);
                     return result;
                 }

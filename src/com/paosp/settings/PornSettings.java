@@ -54,10 +54,10 @@ public class PornSettings extends SettingsPreferenceFragment {
         PackageManager pm = getPackageManager();
 
         try {
-            pm.getPackageInfo("com.xenonota", PackageManager.GET_ACTIVITIES);
+            pm.getPackageInfo("com.pornaospota", PackageManager.GET_ACTIVITIES);
         }
         catch (PackageManager.NameNotFoundException e) {
-            getPreferenceManager().findPreference("xenonota").setVisible(false);
+            getPreferenceManager().findPreference("pornaospota").setVisible(false);
         }
 
         if (isNewRecents(context)) {
