@@ -23,4 +23,10 @@
         android:summary="@string/adb_notify_summary"
         android:defaultValue="true" />
 
+	<!-- Screenshot tone -->
+    <com.paosp.settings.preferences.SystemSettingSwitchPreference
+        android:key="screenshot_sound"
+        android:title="@string/screenshot_sound_title"
+        android:summary="@string/screenshot_sound_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>
